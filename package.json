@@ -1,0 +1,15 @@
+{
+  "name": "webpack-test",
+  "version": "0.0.1",
+  "description": "Webpack test",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "keywords": [
+    "webpack",
+    "performance"
+  ],
+  "author": "Matt Sroufe",
+  "license": "MIT"
+}
