@@ -2,8 +2,10 @@
   "name": "webpack-test",
   "version": "0.0.1",
   "description": "Webpack test",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "build": "webpack",
+    "serve": "webpack-dev-server",
     "test": "yarn test"
   },
   "keywords": [
@@ -11,5 +13,11 @@
     "performance"
   ],
   "author": "Matt Sroufe",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {}
 }
